@@ -10,7 +10,7 @@
 - [ ] [selection sort](cpp/selection_sort.cpp)
 
 - [x] [breadth first search](cpp/bfs.cpp)
-- [ ] [depth first search](cpp/dfs.cpp)
+- [x] [depth first search](cpp/dfs.cpp)
 - [ ] [dijkstra](cpp/dijkstra.cpp)
 
 ## python
@@ -22,6 +22,6 @@
 - [ ] [merge sort](cpp/merge_sort.cpp)
 - [ ] [selection sort](cpp/selection_sort.cpp)
 
-- [ ] [breadth first search](cpp/bfs.cpp)
-- [ ] [depth first search](cpp/dfs.cpp)
+- [x] [breadth first search](cpp/bfs.cpp)
+- [x] [depth first search](cpp/dfs.cpp)
 - [ ] [dijkstra](cpp/dijkstra.cpp)
