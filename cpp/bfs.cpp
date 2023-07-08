@@ -1,16 +1,12 @@
 #include <vector>
 #include <queue>
 
+#include "structs.h"
+
 using std::queue, std::vector;
 
-struct TreeNode {
-    int val;
-    TreeNode* left;
-    TreeNode* right;
-    TreeNode(int v): val(v), left(nullptr), right(nullptr) {}
-};
-
-vector<vector<int>>* tree_bfs(TreeNode* root) {
+// Sample BFS function, returns vector of vectors of ints by level
+vector<vector<int>>* bfs(TreeNode* root) {
     // Initialize empty queue, then push root node
     queue<TreeNode*> q;
     q.push(root);
